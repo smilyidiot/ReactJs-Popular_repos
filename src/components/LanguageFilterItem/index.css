@@ -1,0 +1,26 @@
+/* Write your CSS here */
+.tab-container {
+  margin: 10px;
+}
+
+.tab {
+  margin-right: 50px;
+  background-color: transparent;
+  border: 0px solid;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  cursor: pointer;
+  padding: 8px;
+}
+
+@media screen and (max-width: 768px) {
+  .tab {
+    margin: 2px;
+  }
+}
+
+.blue-circle {
+  border: 2px solid #0284c7;
+  border-radius: 15px;
+}
